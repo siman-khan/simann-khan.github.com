@@ -1,99 +1,55 @@
-::-webkit-input-placeholder{
-            font-size: 20px;
-        }
-        :-moz-placeholder{/*older firefox*/
-        font-size: 20px;
-        }
-        ::moz-placeholder{/*firefox 19+ */
-          font-size: 20px;  
-        }
-        :-ms-input-placeholder{
-          font-size: 20px;  
-        }
 body{
     margin: 0;
     padding: 0;
-    background: #333;
+    background: lightblue;
 }
-.head{
-    width: 980px;
-    min-height: 1000px;
-    margin: auto;
-    background: #fff;
+.fullbody {
+margin: auto;min-height: 930px;width: 980px;
 }
-.form_body {
-  background: #eeeeee none repeat scroll 0 0;
-  border-radius: 10px;
-  height: 711px;
-  margin: auto;
-  width: 601px;
+.top-header{ width: 150px; height: 30px; border: 2px solid red; border-bottom: none; float: right;
 }
-.form_body .header {
-  background: rgba(0, 0, 0, 0) linear-gradient(#2276B4, #094f8b) repeat scroll 0 0;
-  border: 0.1px solid #0a508c;
-  border-radius: 10px 10px 0 0;
-  height: 70px;
-  width: 600px;
+.layout { border: 2px solid red; float: left; min-height: 898px; width: 976px; border-bottom: none;
 }
-form {
-  margin-top: 45px;
-  margin-left: 30px;
+.header{ width: 976px; height: 127px; border: 2px solid red; border-left: none; border-top: none;
 }
-.header p {
-  color: #fff;
-  font-size: 30px;
-  margin-left: 30px;
-  margin-top: 15px;
-  font-family: tahoma;
-  font-weight: bold;
-}
-label {
-  clear: both;
-  color: #434240;
-  display: block;
+.header .logo { border: 2px solid red; height: 108px; width: 176px; margin-top: 8px; margin-left: 8px;
   float: left;
-  font-weight: bold;
-  height: 12px;
-  padding: 10px;
-  vertical-align: bottom;
-  width: 125px;
-  font-family: Trebuchet MS;
 }
-form input {
-  background: linear-gradient(#e8e8e8, #D6D6D6);
-  border: 1px solid #989898;
-  border-radius: 5px;
-  font-family: arial;
-  font-size: 12pt;
-  height: 30px;
-  margin-bottom: 30px;
-  text-align: left;
-  vertical-align: top;
-  width: 365px;
+.header .banner { border: 2px solid red; height: 108px; width: 410px; margin-top: 8px; margin-left: 8px; float: left;
 }
-form button {
-  background: #019300 none repeat scroll 0 0;
-  border-color: hsl(255, 100%, 100%);
-  border-width: medium;
-  color: #fff;
-  font-family: arial;
-  font-size: 12pt;
-  height: 40px;
-  margin: 10px 50% 10px 416px;
-  vertical-align: top;
-  width: 100px;
-  border: 1px solid #019300;
-  border-radius: 5px;
+.header .search {height: 108px;width: 195px;margin-top: 8px; margin-left: 8px; float: left;
 }
-p {
-  color: #7e7e87;
-  font-family: Trebuchet MS;
-  font-size: 12px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-top: -15px;
+.search .search_top { border: 2px solid red;float: left; height: 47px; margin-bottom: 10px; width: 196px;
 }
-#checkbox {
-  margin-left: -175px;
-  margin-top: 7px;
+.header .username { border: 2px solid red; float: left; height: 108px; width: 140px; margin-top: 8px; margin-left: 12px;
+}
+.body{ width: 976px;  height: 768px;  border: 2px solid red;  border-left: none;  border-top: none;
+}
+.body .left_sidebar{ height: 680px; width: 176px; float: left;
+}
+.left_sidebar .left_sidebar_top { border: 2px solid red; float: left; height: 400px; margin-left: 8px; margin-top: 8px;width: 176px;
+}
+.left_sidebar .left_sidebar_bottom {border: 2px solid red; float: left; height: 268px; margin-left: 8px;
+ margin-top: 8px; width: 176px;
+}
+.body .main_content { float: left; height: 680px; width: 618px;
+}
+.main_content .main_content_one{  border: 2px solid red; float: left;  height: 80px;  margin-left: 20px;  margin-top: 8px; width: 618px;
+}
+.main_content .main_content_two { border: 2px solid red;float: left; height: 25px; margin-left: 20px;margin-top: 8px; width: 360px;
+}
+.main_content .main_content_three { border: 2px solid red; float: left; height: 550px; margin-left: 20px; margin-top: 8px; width: 618px;
+}
+.main_content_three .main_content_three_child { border: 2px solid red; float: left; height: 200px; margin-left: 8px; margin-top: 8px; width: 597px;
+}
+.body .right_sidebar { float: left; height: 679px; width: 139px;
+}
+.right_sidebar .right_sidebar_top { border: 2px solid red;float: left; height: 339px;margin-left: 32px;
+  margin-top: 8px;width: 139px;
+}
+.right_sidebar .right_sidebar_bottom { border: 2px solid red; float: left; height: 328px;
+  margin-left: 32px;margin-top: 8px; width: 139px;
+}
+.body .footer { float: left;height: 60px; margin-left: 8px;margin-top: 18px;width: 957px;
+  border: 2px solid red;
 }
